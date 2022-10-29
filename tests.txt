@@ -1,0 +1,11 @@
+// A text file with the tested function calls
+
+(remove-ith 2 '("hello" (1 2 3) ((5 2) "ax") (4 5) "world"))
+(remove-ith 100 '("hello" (1 2 3) ((5 2) "ax") (4 5) "world"))
+(remove-ith 5 '("hello" (1 2 3) ((5 2) "ax") (4 5) "world"))
+
+(get-ith 2 '("hello" (1 2 3) ((5 2) "ax") (4 5) "world"))
+(get-ith 100 '("hello" (1 2 3) ((5 2) "ax") (4 5) "world"))
+(get-ith 5 '("hello" (1 2 3) ((5 2) "ax") (4 5) "world"))
+
+(combine-elements '(-4 3 1 3 0 2 4 5 100) '("hello" 2.1 3 "hello" (4 3 5)))
